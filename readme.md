@@ -1,1 +1,1 @@
-all codealpha web dev tasks..
+all codealpha web development tasks..
