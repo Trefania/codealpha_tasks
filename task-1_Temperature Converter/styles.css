@@ -1,0 +1,65 @@
+body {
+    background-image: url(ta1.jpg);
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(0, 32, 102, 0.712);
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.result-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+select, input, button {
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #009e05;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.result-container {
+    font-size: 16px;
+    font-weight: normal;
+}
+.result {
+    flex: 5;
+    text-align: center;
+    padding: 1px;
+    margin: 2%;
+    background-color: #900000d4;
+    border: 1px solid #000000;
+    border-radius: 2px;
+}
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 700px) {
+    .container {
+        max-width: 100%;
+    }
+}
